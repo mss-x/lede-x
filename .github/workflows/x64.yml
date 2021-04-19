@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: mss-x OpenWrt
+name: x64
 
 on:
   repository_dispatch:
