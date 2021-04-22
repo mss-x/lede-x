@@ -7,8 +7,8 @@
 # 除了第一行的#!/bin/bash不要动，其他的设置，前面带#表示不起作用，不带的表示起作用了（根据你自己需要打开或者关闭）
 #
 
-# 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了，其他的不要动
-sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+# 修改openwrt登陆地址,192.168.1.1是默认ip；10.0.0.2是修改的ip
+sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
 
 #设置密码为空（安装固件时无需密码登陆，然后自己修改想要的密码）
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
