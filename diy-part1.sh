@@ -13,5 +13,8 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+# Add xxxx
+# git clone 其他github插件源码地址 package/文件夹名称  
+
 # Add luci-app-adguardhome
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-adguardhome
