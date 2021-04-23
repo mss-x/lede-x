@@ -16,5 +16,6 @@
 # Add xxxx
 # git clone 其他github插件源码地址 package/文件夹名称  
 
-# Add luci-app-adguardhome
-git clone --depth=1 https://github.com/rufengsuixing/luci-app-adguardhome
+# Add HelloWorld
+git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/luci-app-vssr.git 
