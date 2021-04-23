@@ -1,4 +1,4 @@
-# mss-x自用旁路由-自动云编译
+# MSS-X自用旁路由-自动云编译
 
 使用GitHub Actions构建OpenWrt
 
