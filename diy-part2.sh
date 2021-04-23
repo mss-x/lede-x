@@ -37,8 +37,8 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus package/trojan-plus
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/package/syncthing package/syncthing
 
-#git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
-#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
+git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
 
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon  #argon-主题
 #全新的[argon-主题]登录界面,图片背景跟随Bing.com，每天自动切换
