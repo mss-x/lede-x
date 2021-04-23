@@ -19,3 +19,6 @@
 # Add HelloWorld
 git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/luci-app-vssr.git 
+
+
+git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git
