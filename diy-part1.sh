@@ -28,6 +28,8 @@
 #git clone https://github.com/jerrykuku/node-request.git package/node-request
 #解除网易云音乐播放限制
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+#adguardhome去广告
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
 #添加第三方argon-主题
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
