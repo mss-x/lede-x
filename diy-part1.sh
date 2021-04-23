@@ -1,14 +1,5 @@
 #!/bin/bash
 #
-# This is free software, licensed under the MIT License.
-# See /LICENSE for more information.
-#
-# File name: diy-part1.sh
-# Description: OpenWrt DIY script part 1 (Before Update feeds)
-#
-
-# Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 修改openwrt登陆地址,192.168.1.1是默认ip；10.0.0.2是修改的ip
 sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
