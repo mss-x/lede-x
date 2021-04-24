@@ -40,3 +40,15 @@
 #移除不用软件包    
 #rm -rf package/lean/luci-theme-argon  #删除源码自带的argon主题，因为上面一个链接是增加了其他作者制作的argon主题
 #rm -rf feeds/packages/net/smartdns
+rm -rf package/lean/luci-app-adbyby-plus
+rm -rf package/lean/luci-app-unblockmusic
+rm -rf package/lean/luci-app-ddns
+rm -rf package/lean/luci-app-wol
+rm -rf package/lean/	luci-app-xlnetacc
+rm -rf package/lean/luci-app-upnp
+rm -rf package/lean/luci-app-vlmcsd
+rm -rf package/lean/luci-app-samba
+rm -rf package/lean/luci-app-vsftpd
+rm -rf package/lean/luci-app-ipsec-vpnd
+rm -rf package/lean/luci-app-flowoffload
+rm -rf package/lean/luci-app-accesscontrol
