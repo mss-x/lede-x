@@ -44,7 +44,7 @@ rm -rf package/lean/luci-app-adbyby-plus
 rm -rf package/lean/luci-app-unblockmusic
 rm -rf package/lean/luci-app-ddns
 rm -rf package/lean/luci-app-wol
-rm -rf package/lean/	luci-app-xlnetacc
+rm -rf package/lean/luci-app-xlnetacc
 rm -rf package/lean/luci-app-upnp
 rm -rf package/lean/luci-app-vlmcsd
 rm -rf package/lean/luci-app-samba
