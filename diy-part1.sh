@@ -15,8 +15,8 @@
 
 #添加额外软件包
 #HelloWorld
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #解除网易云音乐播放限制
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 #adguardhome去广告
@@ -36,12 +36,12 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci
 #移除不用软件包    
 #rm -rf package/lean/luci-theme-argon  #删除源码自带的argon主题，因为上面一个链接是增加了其他作者制作的argon主题
 #rm -rf feeds/packages/net/smartdns
-rm -rf package/lean/luci-app-adbyby-plus
-rm -rf package/lean/luci-app-unblockmusic
-rm -rf package/lean/wol
-rm -rf package/lean/luci-app-xlnetacc
-rm -rf package/lean/luci-app-vlmcsd
-rm -rf package/lean/luci-app-vsftpd
-rm -rf package/lean/luci-app-ipsec-vpnd
-rm -rf package/lean/luci-app-flowoffload
-rm -rf package/lean/luci-app-accesscontrol
+#rm -rf package/lean/luci-app-adbyby-plus
+#rm -rf package/lean/luci-app-unblockmusic
+#rm -rf package/lean/wol
+#rm -rf package/lean/luci-app-xlnetacc
+#rm -rf package/lean/luci-app-vlmcsd
+#rm -rf package/lean/luci-app-vsftpd
+#rm -rf package/lean/luci-app-ipsec-vpnd
+#rm -rf package/lean/luci-app-flowoffload
+#rm -rf package/lean/luci-app-accesscontrol
