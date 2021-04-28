@@ -20,11 +20,14 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 #添加额外软件包
-#HelloWorld
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package-temp/lua-maxminddb
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package-temp/luci-app-vssr
+# Add luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package-temp/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package-temp/luci-app-vssr
+git clone https://github.com/kenzok8/small.git package-temp/small
+cp -r package-temp/small/* package/lean/
+mv -f package-temp/lua-maxminddb package/lean/
+mv -f package-temp/luci-app-vssr package/lean/
+rm -rf package-temp
 #解除网易云音乐播放限制
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 #adguardhome去广告
