@@ -13,13 +13,18 @@
 # 除了第一行的#!/bin/bash不要动，其他的设置，前面带#表示不起作用，不带的表示起作用了
 #
 
+# Uncomment a feed source
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
+# Add a feed source
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
 #添加额外软件包
 #HelloWorld
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package-temp/lua-maxminddb
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package-temp/luci-app-vssr
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #解除网易云音乐播放限制
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 #adguardhome去广告
