@@ -19,6 +19,7 @@
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package-temp/lua-maxminddb
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package-temp/luci-app-vssr
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #解除网易云音乐播放限制
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 #adguardhome去广告
