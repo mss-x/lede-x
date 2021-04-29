@@ -36,13 +36,13 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci
 #git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 
 #移除不用软件包
-＃rm -rf package/lean/luci-app-adbyby-plus
-＃rm -rf package/lean/luci-app-unblockmusic
-＃rm -rf package/lean/wol
-＃rm -rf package/lean/luci-app-xlnetacc
-＃rm -rf package/lean/luci-app-vsftpd
-＃rm -rf package/lean/luci-app-ipsec-vpnd
-＃rm -rf package/lean/luci-app-flowoffload
-＃rm -rf package/lean/luci-app-accesscontrol
-＃rm -rf package/lean/luci-app-upnp
-＃rm -rf package/lean/luci-app-samba
+#rm -rf package/lean/luci-app-adbyby-plus
+#rm -rf package/lean/luci-app-unblockmusic
+#rm -rf package/lean/wol
+#rm -rf package/lean/luci-app-xlnetacc
+#rm -rf package/lean/luci-app-vsftpd
+#rm -rf package/lean/luci-app-ipsec-vpnd
+#rm -rf package/lean/luci-app-flowoffload
+#rm -rf package/lean/luci-app-accesscontrol
+#rm -rf package/lean/luci-app-upnp
+#rm -rf package/lean/luci-app-samba
